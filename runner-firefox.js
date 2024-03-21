@@ -2,7 +2,7 @@ const cypress = require('cypress')
 const tesults = require('cypress-tesults-reporter');
 
 cypress.run({
-  // specs to run here
+  browner: 'firefox'
 })
 .then((results) => {
   const args = {
